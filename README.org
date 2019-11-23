@@ -1,1 +1,8 @@
-# dotfiles
+#+TITLE: dotfiles
+#+DESCRIPTION: config-files für diverse Programme & nützliche Skripte
+
+* Skripte
+  - Ein update Skript in Linux
+
+* Dotfiles
+
