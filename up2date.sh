@@ -9,7 +9,7 @@
 echo clear
 echo "
 (1) System updaten / upgraden
-(2) noch frei"
+(2) Standart Prg installieren Debian/Ubuntu/Mint etc"
 
 read -p "Auswahl treffen:" varauswahl
 
@@ -24,8 +24,11 @@ case "$varauswahl" in
 		echo "apt autoremove als root"
 		sudo apt-get autoremove
 		;;
-	2|zwei) echo "noch nicht belegt"
+	2|zwei) echo clear
+	        echo "Standart Prg installieren"
+		sudo apt-get install 
 		;;
+		echo "openssh-server htop tmux zsh git progress aircrack-ng airport-utils airgraph-ng crunch fish"
 	*) echo "ZONK"
 		;;
 esac
